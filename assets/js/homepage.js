@@ -35,7 +35,8 @@ var getUserRepos = function(user) {
                 displayRepos(data, user);
             });
         }   else {
-            alert("Error: " + response.statusText);
+            alert("Error: " + response.status);
+            console.log(response);
         }
     })
     .catch(function(error) {
