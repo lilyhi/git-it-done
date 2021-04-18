@@ -3,7 +3,6 @@ var nameInputEl = document.querySelector("#username");
 var repoContainerEl = document.querySelector("#repos-container");
 var repoSearchTerm = document.querySelector("#repo-search-term");
 
-console.log(window.location.hostname);
 var formSubmitHandler = function(event) {
     // prevent page from refreshing
     event.preventDefault();
